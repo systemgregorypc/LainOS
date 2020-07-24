@@ -1,2 +1,3 @@
 # LainOS
-LainOSオペレーティングシステム    LainOS   sistema operativo 
+LainOSオペレーティングシステム   
+LainOS   sistema operativo 
