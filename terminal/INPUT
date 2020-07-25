@@ -1,0 +1,3 @@
+<INPUT type="radio" name="myButton" value="theValue"
+onclick="this.checked=false;
+alert('Sorry, this option is not available!')">
