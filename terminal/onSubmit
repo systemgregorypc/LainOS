@@ -1,0 +1,22 @@
+<script language="JavaScript">
+<!--
+function isValid() {
+ var email=document.form1.t1.value;
+ if (email.indexOf(' ')==-1 
+      && 0<email.indexOf('@')
+      && email.indexOf('@')+1 < email.length
+ ) return true;
+ else alert ('Invalid email address!')
+ return false;
+}
+//-->
+</script>
+
+<form name=form1 
+method=post
+action="javascript:alert('The form is submitted.')" 
+onSubmit="return isValid()">
+Your email:
+<input type=text name=t1 size=20 >
+<input type=submit value=Submit>
+</form>
